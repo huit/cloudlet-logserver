@@ -150,6 +150,7 @@ function install_prereqs() {
       ;;
     rhel5|rhel6)
       message info "No additional package configuration for rhel"
+      puppet resource package ruby-devel ensure=installed >>"$log" 2>&1
       ;;
     debian|ubuntu)
       message info "No additional package configuration for debian/ubuntu"

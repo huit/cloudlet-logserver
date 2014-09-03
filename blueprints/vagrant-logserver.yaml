@@ -1,0 +1,14 @@
+--- # vagrant-single-host
+summary: A single local Vagrant logserver
+description: >
+  A single local Vagrant logserver
+provider: vagrant
+parameters:
+  EpelMirror: "http://download.fedoraproject.org/pub/epel"
+  UpdatePackages: False
+  SetupPuppet: True
+  PuppetBootstrap: "http://raw.github.com/hashicorp/puppet-bootstrap/master"
+  BoxName: CentOS-6.5-x86_64
+  BoxUrl: "http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.5-x86_64-v20140504.box"
+  Environment: development
+  Role: none

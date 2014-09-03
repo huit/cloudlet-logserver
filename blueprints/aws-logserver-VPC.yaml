@@ -1,0 +1,8 @@
+--- # aws-single-host
+summary: A single Amazon Linux logserver in a VPC
+description: >
+  A single Amazon Linux logserver in a VPC
+provider: aws
+parameters:
+  InstanceType: m3.medium
+  AWSRegion: us-east-1
