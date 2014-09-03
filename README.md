@@ -1,7 +1,12 @@
-nepho-example
-=============
+cloudlet-logserver
+=================
 
-This is an example cloudlet for [nepho](http://github.com/huit/nepho) that demonstrates key concepts and structure. To get started with your own cloudlet, fork this example and customize it to meet your needs.
+This cloudlet for [nepho](http://github.com/huit/nepho) deploys a logserver into your cloud environment so that 
+you can push all your logs into a single place for indexing and analysis.
+
+
+Older docs
+==========
 
 Key Concepts
 ------------
